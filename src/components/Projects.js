@@ -7,6 +7,8 @@ import {
   TabContent,
   TabPane,
 } from "react-bootstrap";
+import ProjectCard from "./ProjectCard";
+import colorSharp2 from "../assets/images/color-sharp2.png";
 
 const Projects = () => {
   const projects = [
@@ -60,7 +62,7 @@ const Projects = () => {
                 <TabPane eventKey="first">
                   <Row>
                     {projects.map((project, index) => {
-                      return <p>{project.title}</p>;
+                      return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
                 </TabPane>
@@ -71,6 +73,7 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
+      <img className="background-image-right" src={colorSharp2} />
     </section>
   );
 };
