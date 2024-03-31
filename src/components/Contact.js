@@ -45,6 +45,9 @@ const Contact = () => {
                         <Col sm={6} className="px-1">
                         <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate("phone", e.target.value)} />
                         </Col>
+                        <Col>
+                        <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate("message", e.target.value)} />
+                        </Col>
                     </Row>
                 </form>
             </Col>
