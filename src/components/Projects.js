@@ -9,6 +9,9 @@ import {
 } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/images/color-sharp2.png";
+import projImg1 from "../assets/images/project-img1.png";
+import projImg2 from "../assets/images/project-img2.png";
+import projImg3 from "../assets/images/project-img3.png";
 
 const Projects = () => {
   const projects = [
@@ -20,15 +23,15 @@ const Projects = () => {
     {
       title: "Recommendator",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
     },
     {
       title: "ContactApp",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg3,
     },
     {
-      title: "Redox-Todo",
+      title: "Redux-Todo",
       description: "Design & Development",
       imgUrl: projImg1,
     },
@@ -46,8 +49,8 @@ const Projects = () => {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
-            <TabContainer id="projects-tabs" defaultActiveKey="/home">
-              <Nav>
+            <TabContainer id="projects-tabs" defaultActiveKey="first">
+              <Nav className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <NavItem>
                   <NavLink eventKey="first">Tab One</NavLink>
                 </NavItem>
