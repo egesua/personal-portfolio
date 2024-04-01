@@ -541,8 +541,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer {
-    padding: 0 0 50px 0;
-    background-image: url('./assets/img/footer-bg.png');
+    padding: 75px 0 50px 0;
+    background-image: url('./assets/images/footer-bg.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -616,7 +616,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer img {
-    width: 26%;
+    width: 35%;
 }
 
 .footer p {
