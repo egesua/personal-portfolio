@@ -6,6 +6,10 @@ import {
   TabContainer,
   TabContent,
   TabPane,
+  Nav,
+  NavLink,
+  NavItem,
+  Tab
 } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/images/color-sharp2.png";
