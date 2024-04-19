@@ -18,6 +18,9 @@ import projImg2 from "../assets/images/project-img2.png";
 import projImg3 from "../assets/images/project-img3.png";
 
 const Projects = () => {
+
+  //TODO need to add some project images.
+
   const projects = [
     {
       title: "E-Commerce Website",
@@ -35,13 +38,16 @@ const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Redux-Todo",
+      title: "Redux-Todo App",
       description: "Design & Development",
       imgUrl: projImg1,
     },
   ];
 
   return (
+
+    //Convert lorem ipsum's to information about my projects.
+
     <section className="project" id="project">
       <Container>
         <Row>

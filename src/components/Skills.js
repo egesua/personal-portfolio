@@ -29,6 +29,9 @@ const Skills = () => {
   };
 
   return (
+
+    //lorem ipsum part replacement needed.
+
     <section className="skill" id="skills">
       <Container>
         <Row>
